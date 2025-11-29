@@ -27,8 +27,10 @@ function getBotReply(message) {
   }  else if (msg.includes("7")) {
     return "Mission: To provide a holistic education that nurtures students' physical, mental, intellectual, and spiritual growth, along with imparting strong moral values. ,Curriculum: Offers both the Tamil Nadu state board curriculum (Matriculation) and the CBSE curriculum. ,Education: Emphasizes not just knowledge, but also opening students' minds to learning and guiding their overall development. ,Motto: 'Keep smiling', encouraging students to face life's experiences with courage and balance. ,Established: 1984. ,Management: Managed by the Central Chinmaya Mission Trust, Mumbai. ";
   }  else if (msg.includes("8")) {
+    return "The school follows the Samacheer Kalvi curriculum, focusing on a comprehensive education that includes academics, co-curricular activities, and value-based learning.";
+  } else if (msg.includes("9")) {
     return "100% pass rate in board exams for the past 10 years, with many students achieving top ranks at district and state levels.";
-  }  else if (msg.includes("9")) {
+  }  else if (msg.includes("10")) {
     return "Transport facilities include a fleet of well-maintained buses covering various routes in and around Coimbatore, ensuring safe and reliable transportation for students.";
   }   else if (msg.includes("11")) {
     return "The school library is well-stocked with a diverse collection of books, periodicals resources to support students' academic and recreational reading needs.";
